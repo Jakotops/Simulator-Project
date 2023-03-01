@@ -6,7 +6,7 @@ local Remotes = ReplicatedStorage.Remotes
 local PlayerData = require(ServerScriptService.PlayerData.Manager)
 local Stats = require(ReplicatedStorage.Utils.Stats)
 
-local CLICK_COOLDOWN = 1
+local CLICK_COOLDOWN = 0.5
 
 local Cooldown = {}
 
