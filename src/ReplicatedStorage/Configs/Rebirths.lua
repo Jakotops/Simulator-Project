@@ -35,10 +35,9 @@ RebirthsConfig.Buttons = {
 	
 }
 
-function RebirthsConfig.HasButtonUnlocked(playerData, rebirthButton: number)
+function RebirthsConfig.HasButtonUnlocked(playerData, rebirthButton: string)
 	local buttonConfig = RebirthsConfig.Buttons[rebirthButton]
 	if not buttonConfig then return false end
-	
 	return playerData.RebirthButtons[rebirthButton] 
 end
 return RebirthsConfig

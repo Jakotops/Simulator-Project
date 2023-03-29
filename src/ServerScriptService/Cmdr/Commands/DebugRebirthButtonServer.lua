@@ -2,10 +2,7 @@ local ServerScriptService = game:GetService("ServerScriptService")
 
 local Rebirth = require(ServerScriptService.Rebirth)
 
-return function (context, amount: number?)
-	amount = if amount then amount else 1
-	
+return function (context, rebirthButton: number)
 	local player = context.Executor
-	return Rebirth.Rebirth(player, amount)
+	return Rebirth.UnlockButton(player, tostring(rebirthButton))
 end
-
