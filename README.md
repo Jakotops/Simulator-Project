@@ -9,3 +9,5 @@
 
 ##
 Adapted from MonzterDev "How to Make a Simulator on Roblox 2022" series
+
+https://www.youtube.com/watch?v=UAXGwGsxpR8&list=PLl1Tso3TyF55UEnXsYkmsamFqKUBdgo1S&ab_channel=MonzterDEV
