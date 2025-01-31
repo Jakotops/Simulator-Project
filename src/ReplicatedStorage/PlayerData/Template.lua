@@ -21,7 +21,8 @@ local Template = {
 		Fast = DEFAULT_AUTO_INFO,
 		Regular = DEFAULT_AUTO_INFO
 	},
-	RebirthButtons = DEFAULT_REBIRTH_BUTTONS
+	RebirthButtons = DEFAULT_REBIRTH_BUTTONS,
+	Jumps = 2
 }
 
 export type PlayerData = typeof(Template)

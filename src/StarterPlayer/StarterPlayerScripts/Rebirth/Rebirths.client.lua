@@ -90,10 +90,7 @@ local function UpdateRebirth(amount: number)
 	updateButtonCosts()
 end
 
-print(Data.RebirthButtons)
 Data.RebirthButtons = Remotes.GetData:InvokeServer("RebirthButtons")
-print(Data.RebirthButtons)
-	
 for rebirths, info in RebirthsConfig.Buttons do
 	GenerateButton(rebirths)
 end 	
